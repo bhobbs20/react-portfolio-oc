@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 import '../home.css';
 import WOW from "wowjs";
 
-// import { Button } from 'reactstrap';
-
-
 var ReactRotatingText = require('react-rotating-text');
 
 class Home extends Component {
