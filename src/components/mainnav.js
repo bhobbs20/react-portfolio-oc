@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import '../mainnav.css';
 
 import Home from './home';
 import About from './about';
@@ -34,7 +35,7 @@ import {
     render() {
       return (
         <div>
-        <Navbar color="light" light expand="md">
+        <Navbar expand="md">
         <NavbarBrand href="/">Brian Hobbs</NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>

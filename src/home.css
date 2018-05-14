@@ -1,7 +1,6 @@
 
 
-.header{
-    
+.hero {
     background-image: url(http://ppcdn.500px.org/75319705/1991f76c0c6a91ae1d23eb94ac5c7a9f7e79c480/2048.jpg) ;
     background-position: center center;
     background-repeat:  no-repeat;
@@ -9,10 +8,35 @@
     background-size:  cover;
     background-color: #999;
     height: 800px;
-   
+   color: #fff;
+}
+
+.hero-name {
+    padding-top: 200px;
 }
 
 .p-text {
     height: 20px;
     color: #fff;
 }
+
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  }
+   
+  @keyframes blinking-cursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  span {
+      text-align: center;
+      
+  }
