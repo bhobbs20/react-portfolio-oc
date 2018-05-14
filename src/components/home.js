@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 import '../home.css';
-// import ReactTextRotator from 'react-text-rotator';
 import WOW from "wowjs";
 
+// import { Button } from 'reactstrap';
 
 
 var ReactRotatingText = require('react-rotating-text');
-
 
 class Home extends Component {
 
@@ -16,17 +15,16 @@ class Home extends Component {
     wow.init();
   }
 
-
   render() {
     return (
-      <div className='wow bounceInDown'>
+      <div className='container-fluid hero'> 
+        <div className="wow bounceInDown">
   
-        <h2 className="text-center hero-name ">Brian Hobbs</h2>
+        <h2 className="text-center hero-name ">Hi I'M Brian Hobbs</h2>
         <p className="text-center"><ReactRotatingText className="text-center" items={['Im sexy', 'Im a scholor', 'People like me']} /> </p>
-        <h3 className="text-center">Full Stack Developer</h3>
-
-
-
+        <Link to="/contact" className="btn btn-outline-primary">Lets get started!</Link>
+        <Link to="/portfolio" className="btn btn-outline-warning">My Work!</Link>
+        </div>
       </div>
     );
   }
