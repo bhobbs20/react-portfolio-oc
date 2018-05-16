@@ -35,11 +35,14 @@ import {
     render() {
       return (
         <div>
-        <Navbar expand="md">
+        <Navbar expand="md" className="fixed-top">
         <NavbarBrand href="/">Brian Hobbs</NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
+          <NavItem>
+          <NavLink href="/">Home</NavLink>
+        </NavItem>
             <NavItem>
               <NavLink href="/about">About</NavLink>
             </NavItem>

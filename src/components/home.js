@@ -19,7 +19,7 @@ class Home extends Component {
       <div className='container-fluid hero mask rgba-black-strong'> 
      
      
-        <div className="container wow bounceInDown text-center">
+        <div className="container wow bounceInDown text-center hero-container">
           <Row className="intro-row">
             <Col md="12">
               <h2 className="text-center hero-name "><span className="hero-span">Hi I'M</span> Brian Hobbs</h2>
@@ -32,6 +32,7 @@ class Home extends Component {
 
         </Row>
         </div>
+      
       </div>
     );
   }
