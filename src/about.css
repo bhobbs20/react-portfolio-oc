@@ -1,10 +1,99 @@
 .about {
     height: 100%;
+     
+}
+
+ .about-title {
+    color: rgba(49,49,49,1);
+    padding-top: 110px;
+    font-size: 40px;
+    letter-spacing: 3px;
+  
+
+   
+}
+
+.about-line {
+   
+    width: 10%;
     
+    border-top: 3px solid #77b785;
+    padding-bottom: 80px;
+} 
+
+ .about-intro-title {
+    color: #5b9467;
+    padding-top: 40px;
+    
+} 
+/*
+.about-intro {
+    color: #77b785;
+    padding-bottom: 20px;
+}
+
+.about-p {
+    color: #38393a;
+    padding: 20px;
+    -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .skillsBox {
     padding: 20px;
+    border-radius: 5px;
     -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
     box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+} */ 
+
+
+    /* .block {
+        width: 70px;
+        height: 2px;
+        background: #77b785; 
+       
+        margin-bottom: 50px;
+    } */
+
+    .team-member {
+        text-align: center;
+        border-radius: 5px;
+        height: 400px;
+        margin-bottom: 50px;
+        border-bottom: 2px solid #77b785;
+        -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .team-member-two {
+        height: 400px;
+        border-radius: 5px;
+        border-bottom: 2px solid #77b785;
+        -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .team-member img {
+        margin-top: 30px;
+        border: 7px solid #77b785;
+        width: 200px;
+        -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile-name {
+        padding-top: 25px;
+    }
+
+.profile-lead {
+    padding: 25px 25px 15px 25px;
 }
+
+    .profile-about {
+       padding: 5px 25px 25px 25px;
+    }
+   
+    .dots {
+        color: #77b785;
+    }
