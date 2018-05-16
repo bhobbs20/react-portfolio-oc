@@ -1,5 +1,33 @@
 .navbar {
+    position: absoulute;
+    top: 0;
     height: 70px;
-    background-color: rgba(49,49,49,0.2);
+    z-index: 100;
+    
+    border-bottom: 1px solid #fff;
+    background: rgba(49,49,49,1);
+    color: #fff;
+
+    -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    color: #fff;
+    padding-left: 40px;
+}
+
+.nav-link {
+    display: block;
+    padding-right: 30px;
+    font-size: 18px;
     color: #fff;
 }
