@@ -2,3 +2,16 @@
     padding-top: 5px;
     padding-bottom: 20px;
 }
+
+.portfolio-item-title {
+    color: #fff;
+}
+
+.card-img-top {
+    height: 225px;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
