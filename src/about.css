@@ -59,7 +59,7 @@
     .team-member {
         text-align: center;
         border-radius: 5px;
-        height: 400px;
+        padding:20px;
         margin-bottom: 50px;
         border-bottom: 2px solid #77b785;
         -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
@@ -96,4 +96,48 @@
    
     .dots {
         color: #77b785;
+    }
+
+    .services, .skills {
+  
+      
+       
+        -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .about-stuff {
+        padding-top: 30px;
+    }
+
+    .progress-bar {
+        padding: 20px;
+        border-radius: 5px;
+        height: 8px;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #77b785;
+        -webkit-transition: width .6s ease;
+        -o-transition: width .6s ease;
+        transition: width .6s ease;
+    }
+    .desc-bar {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .skills {
+        padding: 20px;
+        border-radius: 5px;
+        border-bottom: 2px solid #77b785;
+    }
+    
+    .my-services {
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        border-bottom: 2px solid #77b785;
+        -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
     }
