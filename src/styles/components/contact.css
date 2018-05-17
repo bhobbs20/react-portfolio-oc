@@ -7,8 +7,25 @@
    
     border: 2px solid grey;
     border-radius: 10px;
-    padding: 20px;
-    margin-top: 75px;
+    background-color: #fff;
+    /* padding: 20px;
+    margin-top: 75px; */
     -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
     box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contact-title {
+    
+    padding-top: 125px;
+
+    color: #fff;
+}
+
+.contact-p {
+    color: #fff;
+}
+
+.contact-details {
+    background-color: #77b785;
+    height: 100%;
 }
