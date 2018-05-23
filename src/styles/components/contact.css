@@ -105,6 +105,9 @@ color: #5b9467;
     display: inline-flex;
 }
 
+.map-box {
+    background-color: rgba(241,241,241,1);
+}
 .social-intro-contact {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -129,6 +132,7 @@ color: #5b9467;
    
 
 }
+
 
 
 .social-contact-row {

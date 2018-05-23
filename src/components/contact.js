@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import '../styles/components/contact.css';
-
 import { Row, Col, Jumbotron, Button } from 'reactstrap';
 import FaHome from 'react-icons/lib/fa/home';
 import FaMobile from 'react-icons/lib/fa/mobile';
 import FaEnvelopeO from 'react-icons/lib/fa/envelope-o';
-
 import FaGithubSquare from 'react-icons/lib/fa/github-square';
 import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
 import FaTwitter from 'react-icons/lib/fa/twitter';
-
-
+import GoogleMapReact from 'google-map-react';
+import MapContainer from './MapContainer';
+import Footer from './footer';
 
 class Contact extends Component {
- 
+
   render() {
     return (
         
@@ -23,7 +22,7 @@ class Contact extends Component {
           <p className="lead">Have  a project idea or just want to chat? Lets have coffee and change the world!</p>
         </Jumbotron>
   
-       <div classname="contact-info-cont container-fluid">
+       <div className="contact-info-cont container-fluid">
           <h3 className="display-4 get-intouch text-center"> Get in touch with Me</h3>
           <Row className="contact-row">
             <Col className="text-center" md="4">
@@ -48,10 +47,6 @@ class Contact extends Component {
           </Row> 
         </div>
 
-        
-        
-        
-
         <Row className="social-contact-row">
           <Col md="6">
             <h3 className=" text-center social-intro-contact">Lets get social</h3>
@@ -68,12 +63,17 @@ class Contact extends Component {
             </Col>
           </Col>
         </Row>
-     
-
-
+      
+        <div className="container-fluid map-box">   
+          <MapContainer/>
+        </div>    
+          <Footer/>
       </div> 
     );
   }
 }
 
 export default Contact;
+
+
+

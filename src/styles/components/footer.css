@@ -1,11 +1,32 @@
 .footer {
-    background-color: #F8F8F8;
+    background-color: rgba(49,49,49,1);
     border-top: 1px solid #E7E7E7;
     text-align: center;
     padding: 20px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 60px;
+    
+  color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
     width: 100%;
+}
+
+.footer-links {
+  color: white;
+  list-style: none;
+  display: block;
+}
+
+.footer-links:hover {
+    text-decoration: none;
+    color: #77b785;
+}
+
+.footer-social-icon {
+  color: #77b785;
+  font-size: 40px;
+  margin: 10px;
+}
+
+..footer-social-icon:hover {
+  color: #5b9467;
 }

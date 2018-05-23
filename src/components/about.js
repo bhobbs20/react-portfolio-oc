@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../about.css';
 import { Row, Col, Progress, ListGroup, ListGroupItem, Jumbotron  } from 'reactstrap';
+import Footer from './footer';
 
 class About extends Component {
  
@@ -80,7 +81,7 @@ class About extends Component {
          
           
     
-
+      <Footer/>
       </div>
     );
   }
