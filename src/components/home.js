@@ -17,6 +17,7 @@ class Home extends Component {
   render() {
     return (
       <div className='container-fluid hero mask rgba-black-strong'> 
+    
      
      
         <div className="container wow bounceInDown text-center hero-container">
@@ -32,7 +33,7 @@ class Home extends Component {
 
         </Row>
         </div>
-      
+       
       </div>
     );
   }

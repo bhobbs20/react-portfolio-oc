@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import '../about.css';
-import { Row, Col, Progress, ListGroup, ListGroupItem  } from 'reactstrap';
+import { Row, Col, Progress, ListGroup, ListGroupItem, Jumbotron  } from 'reactstrap';
 
 class About extends Component {
  
   render() {
     return (
-      <div className="about container ">
+      <div className="about">
+      <Jumbotron  className="about-jumbo img-fluid">
+      <h1 className="display-3 about-title"><span className="contact-black">About Me</span> </h1>
+      <p className="lead">Have  a project idea or just want to chat? Lets have coffee and change the world!</p>
+      
+    </Jumbotron>
      
           <h2 className=" about-title bold ">About</h2>
           <div className="about-line"></div>

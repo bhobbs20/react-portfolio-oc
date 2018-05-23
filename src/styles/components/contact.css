@@ -3,29 +3,145 @@
     
 }
 
-.contact-form {
-   
-    border: 2px solid grey;
-    border-radius: 10px;
-    background-color: #fff;
-    /* padding: 20px;
-    margin-top: 75px; */
+.contact-title {
+    padding-top: 60px;
+    font-weight: 700px;
+    color: #fff;
+}
+
+.lead {
+    color: #fff;
+    padding-top: 25px;
+}
+
+
+.contact-line {
+    width: 130px;
+    border: 3px solid green;
+}
+
+.contact-box {
+    padding: 15px;
+    border: 2px solid blue;
+}
+
+.contact-container {
+    padding-top: 100px;
+}
+
+.conatct-jumbo {
+    padding-top: 100px;
+    height: 500px;
+    background-image: url('/contact-final.jpg');
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    margin: 0;
+}
+
+.contact-black {
+    background-color: rgba(43, 44, 45, 0.5);
+    padding: 20px 5px 20px 50px;
+    border-left: 4px solid #77b785;
+   color: #fff;
+}
+
+.contact-info-cont {
+
+}
+
+.contact-row {
+    background-color:rgba(241,241,241,1);
+    color: #fff;
+   padding-top: 75px;
+   padding-bottom: 75px;
+}
+
+.get-intouch {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-contact {
+  
+}
+
+.contact-icons {
+    color: #77b785;
+    font-size: 60px;
+    margin-bottom: 20px;
     -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
     box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
-.contact-title {
+.contact-icons:hover {
+    color: #5b9467;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+   
+}
+
+.contact-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+   padding-right: 5px;
+   padding-left: 5px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 5px;
+   margin-right: 5px;
+    -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+color: #5b9467;
+}
+
+.contact-container:hover{
+    border-bottom: 3px solid #77b785;
+}
+
+.contact-flex {
+    display: inline-flex;
+}
+
+.social-intro-contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.social-contact-icon {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size:40px;
+    color: #77b785;
+    margin-right: 5px;
+    margin-left:5px;
     
-    padding-top: 125px;
-
-    color: #fff;
 }
 
-.contact-p {
-    color: #fff;
+.social-contact-icon:hover {
+    color: #5b9467;
+   
+
 }
 
-.contact-details {
-    background-color: #77b785;
-    height: 100%;
+
+.social-contact-row {
+    background-color: rgba(49,49,49,1);
+}
+@media screen and (max-width: 500px) {
+    .get-intouch {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+   .display-3 {
+    font-size: 4rem;
+   }
 }

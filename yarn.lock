@@ -2,6 +2,35 @@
 # yarn lockfile v1
 
 
+"@fortawesome/fontawesome-common-types@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.1.7.tgz#4336c4b06d0b5608ff1215464b66fcf9f4795284"
+
+"@fortawesome/fontawesome-free-brands@^5.0.13":
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-brands/-/fontawesome-free-brands-5.0.13.tgz#4d15ff4e1e862d5e4a4df3654f8e8acbd47e9c09"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.1.7"
+
+"@fortawesome/fontawesome-free-solid@^5.0.13":
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-solid/-/fontawesome-free-solid-5.0.13.tgz#24b61aaf471a9d34a5364b052d64a516285ba894"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.1.7"
+
+"@fortawesome/fontawesome@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome/-/fontawesome-1.1.8.tgz#75fe66a60f95508160bb16bd781ad7d89b280f5b"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.1.7"
+
+"@fortawesome/react-fontawesome@0.0.20":
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.0.20.tgz#5ec711f3a032c13643e454b360112b6346a276d6"
+  dependencies:
+    humps "^2.0.1"
+    prop-types "^15.5.7"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -92,6 +121,10 @@ alphanum-sort@^1.0.1, alphanum-sort@^1.0.2:
 amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
+
+animate.css@latest:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-3.6.1.tgz#4ea8a48556378bc8d7535224296c4c0dac9229de"
 
 ansi-align@^2.0.0:
   version "2.0.0"
@@ -1352,6 +1385,10 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
+chain-function@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/chain-function/-/chain-function-1.0.0.tgz#0d4ab37e7e18ead0bdc47b920764118ce58733dc"
+
 chalk@1.1.3, chalk@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-1.1.3.tgz#a8115c55e4a702fe4d150abd3872822a7e09fc98"
@@ -1441,7 +1478,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.3:
+classnames@^2.1.2, classnames@^2.2.3:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
@@ -2063,7 +2100,7 @@ dom-converter@~0.1:
   dependencies:
     utila "~0.3"
 
-dom-helpers@^3.3.1:
+dom-helpers@^3.2.0, dom-helpers@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.3.1.tgz#fc1a4e15ffdf60ddde03a480a9c0fece821dd4a6"
 
@@ -3296,6 +3333,10 @@ http-signature@~1.2.0:
 https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
+
+humps@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/humps/-/humps-2.0.1.tgz#dd02ea6081bd0568dc5d073184463957ba9ef9aa"
 
 iconv-lite@0.4.19:
   version "0.4.19"
@@ -5452,7 +5493,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1:
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
   dependencies:
@@ -5581,6 +5622,12 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-addons-css-transition-group@^15.6.2:
+  version "15.6.2"
+  resolved "https://registry.yarnpkg.com/react-addons-css-transition-group/-/react-addons-css-transition-group-15.6.2.tgz#9e4376bcf40b5217d14ec68553081cee4b08a6d6"
+  dependencies:
+    react-transition-group "^1.2.0"
+
 react-dev-utils@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-5.0.1.tgz#1f396e161fe44b595db1b186a40067289bf06613"
@@ -5623,6 +5670,13 @@ react-popper@^0.10.4:
   dependencies:
     popper.js "^1.14.1"
     prop-types "^15.6.1"
+
+react-rotating-text@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-rotating-text/-/react-rotating-text-1.2.1.tgz#0a0ec5c3dbb8e5db0146056d2f18dbb2bd3602f9"
+  dependencies:
+    classnames "^2.1.2"
+    prop-types "^15.5.10"
 
 react-router-dom@^4.2.2:
   version "4.2.2"
@@ -5691,6 +5745,23 @@ react-scripts@1.1.4:
     whatwg-fetch "2.0.3"
   optionalDependencies:
     fsevents "^1.1.3"
+
+react-text-rotator@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-text-rotator/-/react-text-rotator-0.0.3.tgz#5716674e73081a11a77d85a69312e1b5be1c4081"
+  dependencies:
+    prop-types "^15.6.0"
+    react-addons-css-transition-group "^15.6.2"
+
+react-transition-group@^1.2.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-1.2.1.tgz#e11f72b257f921b213229a774df46612346c7ca6"
+  dependencies:
+    chain-function "^1.0.0"
+    dom-helpers "^3.2.0"
+    loose-envify "^1.3.1"
+    prop-types "^15.5.6"
+    warning "^3.0.0"
 
 react-transition-group@^2.3.1:
   version "2.3.1"
@@ -7175,6 +7246,12 @@ worker-farm@^1.3.1:
 wow.js@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/wow.js/-/wow.js-1.2.2.tgz#247519b0a342319b1a63e22aea9acec1a9ea57f5"
+
+wowjs@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/wowjs/-/wowjs-1.1.3.tgz#440fc1bb4c7e896840ee47972296a2b59075acbd"
+  dependencies:
+    animate.css latest
 
 wrap-ansi@^2.0.0:
   version "2.1.0"
