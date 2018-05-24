@@ -17,25 +17,24 @@ class PortfolioItem extends Component {
     return (
       <div className="portfolio-item">
 
-      <h2 className="portfolio-item-title">My Work</h2>
     
     <Row className="row-items">
     <Col md="4">
       <Card>
-        <CardImg top width="100%" src="./chalet_one.png" alt="Card image cap" />
+        <CardImg top width="100%" src="./project-one.png" alt="Card image cap" />
       <CardBody>
-      <CardTitle className="text-center">Challets and Caviar</CardTitle>
-      <Link to="/portfolio-item-one" className="btn btn-outline-warning start-button">More</Link>
+      <Link to="/portfolio-item-one"> <CardTitle className="text-center">Challets and Caviar</CardTitle></Link>
+      
       </CardBody>
       </Card>
       </Col> 
 
       <Col md="4">
       <Card>
-        <CardImg top width="100%" src="./filmFestival.png" alt="Card image cap" />
+        <CardImg top width="100%" src="./festival-home.png" alt="Card image cap" />
         <CardBody>
-          <CardTitle className="text-center"> Film Festival</CardTitle>
-          <Link to="/portfolio-item-two" className="btn btn-outline-warning start-button">More</Link>
+        <Link to="/portfolio-item-two"><CardTitle className="text-center"> Film Festival</CardTitle></Link>
+        
          
          
         </CardBody>
@@ -46,8 +45,8 @@ class PortfolioItem extends Component {
       <Card>
         <CardImg top width="100%" src="./react_port.png" alt="Card image cap" />
         <CardBody>
-          <CardTitle className="text-center">  React Portfolio</CardTitle>
-          <Link to="/portfolio-item-three" className="btn btn-outline-warning start-button">More</Link>
+        <Link to="/portfolio-item-three"> <CardTitle className="text-center">  React Portfolio</CardTitle></Link>
+          
           
          
          
@@ -59,8 +58,8 @@ class PortfolioItem extends Component {
 
     <Row>
     <Col md-4>
-      <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+    <Card className="bottom-card">
+        <CardImg top width="100%" src="./coming-soon.jpg" alt="Card image cap" />
         <CardBody>
           <CardTitle className="text-center">Coming Soon!</CardTitle>
       
@@ -70,8 +69,8 @@ class PortfolioItem extends Component {
       </Col> 
 
       <Col md-4>
-      <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+      <Card className="bottom-card">
+      <CardImg top width="100%" src="./coming-soon.jpg" alt="Card image cap" />
         <CardBody>
           <CardTitle className="text-center">Coming Soon!</CardTitle>
          
@@ -80,8 +79,8 @@ class PortfolioItem extends Component {
       </Col> 
 
       <Col md-4>
-      <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+      <Card className="bottom-card">
+      <CardImg top width="100%" src="./coming-soon.jpg" alt="Card image cap" />
         <CardBody>
           <CardTitle className="text-center">Coming Soon!</CardTitle>
        

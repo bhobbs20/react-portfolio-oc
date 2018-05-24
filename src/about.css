@@ -3,146 +3,21 @@
      
 }
 
- /* .about-title {
-    color: #fff;
-    padding-top: 110px;
-    font-size: 40px;
-    letter-spacing: 3px;
-  
-
-   
-}
-
-.about-line {
-   
-    width: 10%;
-    
-    border-top: 3px solid #77b785;
-    padding-bottom: 80px;
-} 
-
- .about-intro-title {
-    color: #5b9467;
-    padding-top: 40px;
-    
-}  */
-/*
-.about-intro {
-    color: #77b785;
-    padding-bottom: 20px;
-}
-
-.about-p {
-    color: #38393a;
-    padding: 20px;
-    -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-}
-
-.skillsBox {
-    padding: 20px;
-    border-radius: 5px;
-    -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-} */ 
-
-
-    /* .block {
-        width: 70px;
-        height: 2px;
-        background: #77b785; 
-       
-        margin-bottom: 50px;
-    } */
 
     .team-member {
+        width: 95%;
         text-align: center;
         border-radius: 5px;
         background-color: #fff;
         padding:20px;
+        margin-top: 40px;
+        margin-left: 15px;
+        margin-right: 10px;
         margin-bottom: 50px;
         border-bottom: 2px solid #77b785;
         -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
         box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
     }
-
-    /* .team-member-two {
-        height: 400px;
-        border-radius: 5px;
-        border-bottom: 2px solid #77b785;
-        -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-        box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-    }
-
-    .team-member img {
-        margin-top: 30px;
-        border: 7px solid #77b785;
-        width: 200px;
-        -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-        box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-    }
-
-    .profile-name {
-        padding-top: 25px;
-    }
-
-.profile-lead {
-    padding: 25px 25px 15px 25px;
-}
-
-    .profile-about {
-       padding: 5px 25px 25px 25px;
-    }
-   
-    .dots {
-        color: #77b785;
-    }
-
-    .services, .skills {
-  
-      
-       
-        -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-        box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-    }
-
-    .about-stuff {
-        padding-top: 30px;
-    }
-
-    .progress-bar {
-        padding: 20px;
-        border-radius: 5px;
-        height: 8px;
-        color: #fff;
-        text-align: center;
-        white-space: nowrap;
-        background-color: #77b785;
-        -webkit-transition: width .6s ease;
-        -o-transition: width .6s ease;
-        transition: width .6s ease;
-    }
-    .desc-bar {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-
-    .skills {
-        padding: 20px;
-        border-radius: 5px;
-        border-bottom: 4px solid #77b785;
-        background-color: #fff;
-    }
-    
-    .my-services {
-        margin-top: 20px;
-        padding: 20px;
-        border-radius: 5px;
-        border-bottom: 2px solid #77b785;
-        -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-        box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-    } */
 
     .about-jumbo {
         padding-top: 100px;
@@ -160,10 +35,7 @@
         color: #fff;
     }
     
-    .lead {
-        
-        
-    }
+  
 
     .content-half ul{
         padding:0;
@@ -187,3 +59,91 @@
         width: 200px;
         margin-bottom: 30px;
     }
+
+    .fucku {
+        display: inline-flex;
+    }
+
+    .job-icon {
+        border-radius: 90%;
+        border: 2px solid #5b9467;;
+        width: 100px;
+        height: 100px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        /* margin-left:20px;
+        margin-right: 20px; */
+        -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .job-icon:hover {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    
+    .edu-icon {
+        height: 75px;
+        width: 75px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .job-row {
+        background-color: #77b785;
+        color: #fff;
+    }
+
+    .job-title {
+        font-weight: 600;
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+
+    .job-comp {
+        font-weight: 400;
+
+    }
+
+
+
+    .jobs-two {
+        display: inline-flex;
+
+    }
+.row-two-two {
+    background-color: rgba(241,241,241,1);
+}
+
+.skills {
+    padding: 60px;
+    border-radius: 5px;
+    border-bottom: 4px solid #77b785;
+    background-color: #fff;
+} 
+
+    @media screen and (max-width: 590px) {
+        .row-two-two {
+         display: block;
+        }
+
+        .job-icon {
+            height: 200px;
+            width: 200px;
+        }
+     }
+
+.services-head {
+    margin: 0;
+    background-color: rgba(241,241,241,1);
+    padding-top: 40px;
+    padding-bottom: 25px;
+    letter-spacing:2px;
+    font-weight: 700;
+    color: #77b785;
+}
+
+.get-knoiw-me {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
