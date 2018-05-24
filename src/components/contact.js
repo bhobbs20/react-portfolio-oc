@@ -10,36 +10,43 @@ import FaTwitter from 'react-icons/lib/fa/twitter';
 import GoogleMapReact from 'google-map-react';
 import MapContainer from './MapContainer';
 import Footer from './footer';
+import WOW from "wowjs";
 
 class Contact extends Component {
+
+  componentDidMount() {
+    const wow = new WOW.WOW();
+    wow.init();
+  }
+ 
 
   render() {
     return (
         
       <div className="contact">
         <Jumbotron  className="conatct-jumbo img-fluid">
-          <h1 className="display-3 contact-title "><span className="contact-black">Contact Me</span></h1>
-          <p className="lead">Have  a project idea or just want to chat? Lets have coffee and change the world!</p>
+          <h1 className="display-3 contact-title text-black wow contact-black slideInLeft">Contact Me</h1>
+          <p className="lead wow slideInLeft">Have  a project idea or just want to chat? Lets have coffee and change the world!</p>
         </Jumbotron>
   
        <div className="contact-info-cont container-fluid">
-          <h3 className="display-4 get-intouch text-center"> Get in touch with Me</h3>
+          <h3 className="display-4 get-intouch text-center wow bounceInUp"> Get in touch with Me</h3>
           <Row className="contact-row">
             <Col className="text-center" md="4">
-            <div className="contact-container">
+            <div className="contact-container wow bounceInRight" data-wow-delay=".1s">
               <h4><FaHome className="contact-icons"/></h4>
              
               <h4>Georegtown, MA </h4>
               </div>
             </Col>
             <Col className="text-center" md="4">
-            <div className="contact-container">
+            <div className="contact-container wow bounceInUp" data-wow-delay=".3s">
               <h4><FaMobile className="contact-icons"/></h4>
               <h4>978-500-4457</h4>
               </div>
             </Col>
             <Col className="text-center" md="4">
-            <div className="contact-container">
+            <div className="contact-container wow bounceInLeft" data-wow-delay=".4s">
              <h4><FaHome className="contact-icons"/></h4>
               <h4>Georegtown, MA </h4>
               </div>
@@ -49,11 +56,11 @@ class Contact extends Component {
 
         <Row className="social-contact-row">
           <Col md="6">
-            <h3 className=" text-center social-intro-contact">Lets get social</h3>
+            <h3 className=" text-center social-intro-contact wow rubberBand">Lets get social</h3>
           </Col>
           <Col className="contact-flex text-center" md="6">
             <Col md="2">
-              <a href="https://github.com/bhobbs20"><FaGithubSquare className="social-contact-icon"/></a>
+              <a href="https://github.com/bhobbs20"><FaGithubSquare className="social-contact-icon  "/></a>
             </Col>
             <Col md="2">
               <a href="https://www.linkedin.com/in/brian-hobbs-181895b5/"><FaLinkedinSquare className="social-contact-icon"/></a>

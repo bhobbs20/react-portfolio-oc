@@ -8,10 +8,17 @@ import '../portfolio-item.css';
 import { 
     Col, Row, Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button } from 'reactstrap';
+
+    import WOW from "wowjs";
   
 
 
 class PortfolioItem extends Component {
+
+  componentDidMount() {
+    const wow = new WOW.WOW();
+    wow.init();
+  }
  
   render() {
     return (
@@ -20,7 +27,7 @@ class PortfolioItem extends Component {
     
     <Row className="row-items">
     <Col md="4">
-      <Card>
+      <Card className=" wow slideInRight" data-wow-delay=".1s">
         <CardImg top width="100%" src="./project-one.png" alt="Card image cap" />
       <CardBody>
       <Link to="/portfolio-item-one"> <CardTitle className="text-center">Challets and Caviar</CardTitle></Link>
@@ -30,7 +37,7 @@ class PortfolioItem extends Component {
       </Col> 
 
       <Col md="4">
-      <Card>
+      <Card className=" wow slideInLeft" data-wow-delay=".2s">
         <CardImg top width="100%" src="./festival-home.png" alt="Card image cap" />
         <CardBody>
         <Link to="/portfolio-item-two"><CardTitle className="text-center"> Film Festival</CardTitle></Link>
@@ -42,7 +49,7 @@ class PortfolioItem extends Component {
       </Col> 
 
       <Col md="4">
-      <Card>
+      <Card className=" wow slideInRight" data-wow-delay=".1s">
         <CardImg top width="100%" src="./react_port.png" alt="Card image cap" />
         <CardBody>
         <Link to="/portfolio-item-three"> <CardTitle className="text-center">  React Portfolio</CardTitle></Link>
@@ -58,7 +65,7 @@ class PortfolioItem extends Component {
 
     <Row>
     <Col md-4>
-    <Card className="bottom-card">
+    <Card className="bottom-card wow slideInLeft" data-wow-delay=".2s">
         <CardImg top width="100%" src="./coming-soon.jpg" alt="Card image cap" />
         <CardBody>
           <CardTitle className="text-center">Coming Soon!</CardTitle>
@@ -69,7 +76,7 @@ class PortfolioItem extends Component {
       </Col> 
 
       <Col md-4>
-      <Card className="bottom-card">
+      <Card className="bottom-card wow slideInRight" data-wow-delay=".1s">
       <CardImg top width="100%" src="./coming-soon.jpg" alt="Card image cap" />
         <CardBody>
           <CardTitle className="text-center">Coming Soon!</CardTitle>
@@ -79,7 +86,7 @@ class PortfolioItem extends Component {
       </Col> 
 
       <Col md-4>
-      <Card className="bottom-card">
+      <Card className="bottom-card wow slideInLeft" data-wow-delay=".2s">
       <CardImg top width="100%" src="./coming-soon.jpg" alt="Card image cap" />
         <CardBody>
           <CardTitle className="text-center">Coming Soon!</CardTitle>
