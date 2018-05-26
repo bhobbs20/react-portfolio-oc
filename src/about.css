@@ -21,7 +21,7 @@
 
     .about-jumbo {
         padding-top: 100px;
-        height: 575px;
+        height: 600px;
     background-image: url('/about-image-final.jpg');
     background-position: center center;
     background-repeat:  no-repeat;
@@ -30,12 +30,46 @@
     }
 
     .about-title {
-        padding-top: 50px;
+        padding-top: 40px;
+        padding-left: 10px;
         font-weight: 700px;
         color: #fff;
     }
     
+    .about-intro-line {
+        color: #77b785;
+        padding-top: 5px;
+        padding-left:10px;
+        font-size: 25px;
+        font-weight: 700px;
+        margin-left: 5px;
+        font-style: italic;
+    }
+
+    .about-intro-con {
+        margin-top: 80px;
+        margin-left: 30px;
+       width: 500px;
+        background-color: rgba(43, 44, 45, 0.5);
+        padding: 10px 5px 20px 10px;
+        border-left: 6px solid #77b785;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+       color: #fff;
+       float: left;
+    }
+
+    @media screen and (max-width: 550px) {
+        .about-intro-con {
+         float: none;
+         margin-left:0;
+         width: 100%;
+        }
+
+       
+     }
   
+    
 
     .content-half ul{
         padding:0;
@@ -70,7 +104,7 @@
         width: 100px;
         height: 100px;
         margin-top: 60px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         /* margin-left:20px;
         margin-right: 20px; */
         -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
@@ -144,6 +178,17 @@
 }
 
 .get-knoiw-me {
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-hover {
+   margin-bottom:30px;
+    padding: 20px;
+    background-color: #77b785;
+    border-radius: 5px;
+    color: #fff;
+    width: 80%;
+    margin-left:10px;
+    font-size: 10px;
 }

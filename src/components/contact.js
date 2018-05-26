@@ -12,6 +12,9 @@ import MapContainer from './MapContainer';
 import Footer from './footer';
 import WOW from "wowjs";
 
+
+
+
 class Contact extends Component {
 
   componentDidMount() {
@@ -25,8 +28,10 @@ class Contact extends Component {
         
       <div className="contact">
         <Jumbotron  className="conatct-jumbo img-fluid">
-          <h1 className="display-3 contact-title text-black wow contact-black slideInLeft">Contact Me</h1>
-          <p className="lead wow slideInLeft">Have  a project idea or just want to chat? Lets have coffee and change the world!</p>
+        <div className="container about-intro-con wow slideInLeft">
+        <h1 className="display-3 about-title wow slideInLeft">Contact Me </h1>
+        <p className="about-intro-line wow slideInLeft">Lets have a coffee and change the world</p>
+       </div> 
         </Jumbotron>
   
        <div className="contact-info-cont container-fluid">
@@ -60,19 +65,19 @@ class Contact extends Component {
           </Col>
           <Col className="contact-flex text-center" md="6">
             <Col md="2">
-              <a href="https://github.com/bhobbs20"><FaGithubSquare className="social-contact-icon  "/></a>
+              <a href="https://github.com/bhobbs20" className="wow bounceInRight"><FaGithubSquare className="social-contact-icon wow bounceInUp "/></a>
             </Col>
             <Col md="2">
-              <a href="https://www.linkedin.com/in/brian-hobbs-181895b5/"><FaLinkedinSquare className="social-contact-icon"/></a>
+              <a href="https://www.linkedin.com/in/brian-hobbs-181895b5/" className="wow bounceInRight"><FaLinkedinSquare className="social-contact-icon wow bounceInUp"/></a>
             </Col>
             <Col md="2">
-              <a href="https://twitter.com/brianhobbs216"><FaTwitter className="social-contact-icon"/></a>
+              <a href="https://twitter.com/brianhobbs216" className="wow bounceInRight"><FaTwitter className="social-contact-icon "/></a>
             </Col>
           </Col>
         </Row>
       
         <div className="container-fluid map-box">   
-          <MapContainer/>
+          <MapContainer />
         </div>    
           <Footer/>
       </div> 

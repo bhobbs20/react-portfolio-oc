@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import '../about.css';
-import { Row, Col, Progress, ListGroup, ListGroupItem, Jumbotron  } from 'reactstrap';
+import { Row, Col, Jumbotron  } from 'reactstrap';
 import Footer from './footer';
 import WOW from "wowjs";
 
 
 class About extends Component {
+
+
+
+
 
   componentDidMount() {
     const wow = new WOW.WOW();
@@ -13,13 +17,21 @@ class About extends Component {
   }
  
   render() {
+
+   
     return (
       <div className="about">
       <Jumbotron  className="about-jumbo img-fluid">
-        <h1 className="display-3 about-title wow slideInLeft"><span className="contact-black">About Me</span> </h1>
-        <p className="lead wow slideInLeft">Have  a project idea or just want to chat? Lets have coffee and change the world!</p>
+      
+      <div className="container about-intro-con wow slideInLeft">
+        <h1 className="display-3 about-title wow slideInLeft">About Me </h1>
+        <p className="about-intro-line wow slideInLeft">A little ditty about me</p>
+       </div> 
+       
       </Jumbotron>
      
+      
+
       <div className=" container-fluid">
         <h3 className="display-4 get-knoiw-me text-center wow bounceInUp"> Get to know me</h3>
         <Row className="wierd">
@@ -41,10 +53,15 @@ class About extends Component {
       <Row className="jobs-row-two text-center row-two-two">
      
         <Col>
-          <img className="job-icon wow rollIn" data-wow-delay=".4s" src="/riverside.jpg"/>
+     
+          <img className="job-icon wow rollIn jobs" data-wow-delay=".4s" src="/riverside.jpg" />
+    
         </Col>
-        <Col >
+        <Col>
+        
+  
           <img className="job-icon wow rollIn" data-wow-delay=".3s" src="/melmark.jpeg"/>
+        
         </Col>
         <Col >
           <img className="job-icon wow rollIn" data-wow-delay=".2s" src="/nashoba.jpg"/>

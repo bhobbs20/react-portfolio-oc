@@ -118,12 +118,16 @@ color: #5b9467;
 }
 
 .social-contact-icon {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
     font-size:40px;
     color: #77b785;
     margin-right: 5px;
     margin-left:5px;
+    -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
     
 }
 

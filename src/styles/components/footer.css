@@ -2,12 +2,23 @@
     background-color: rgba(49,49,49,1);
     border-top: 1px solid #E7E7E7;
     text-align: center;
-    padding: 20px;
+  
     
   color: #fff;
     padding-top: 40px;
     padding-bottom: 40px;
     width: 100%;
+}
+
+.footer-title-name {
+  color: #fff;
+  
+}
+
+.footer-line {
+  padding-top:2px;
+  width: 30%;
+ background-color: #77b785;
 }
 
 .footer-links {
@@ -27,6 +38,14 @@
   margin: 10px;
 }
 
-..footer-social-icon:hover {
+.footer-social-icon:hover {
   color: #5b9467;
+}
+
+@media screen and (max-width: 690px) {
+ .title {
+   padding-top: 40px;
+  
+  }
+
 }

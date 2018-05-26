@@ -1,14 +1,18 @@
-.port-title {
+/* .port-title {
     padding-top: 40px;
     padding-bottom: 40px;
     font-size: 3.5rem;
     font-weight: 300;
     line-height: 1.2;
+} */
+
+.portfolio-title {
+    padding-top: 100px;
 }
 
    .portfolio-jumbo {
     padding-top: 100px;
-    height: 575px;
+    height: 600px;
 background-image: url('/portfolio_image.jpg');
 background-position: center center;
 background-repeat:  no-repeat;

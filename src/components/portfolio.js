@@ -17,11 +17,12 @@ class Portfolio extends Component {
     return (
       <div>
       <Jumbotron  className="portfolio-jumbo img-fluid">
-      <h1 className=" about-title display-3 contact-black wow slideInLeft ">My Portfolio</h1>
-      <p className="text-white lead wow slideInLeft wow slideInLeft ">Check out my work and drop me a line</p>
-      
+      <div className="container about-intro-con wow slideInLeft">
+      <h1 className="display-3 about-title wow slideInLeft">My Portfolio</h1>
+      <p className="about-intro-line wow slideInLeft">Some of my latest work</p>
+     </div> 
     </Jumbotron>
-    <h2 className="text-center port-title wow bounceInUp">Check out my work</h2>
+    <h3 className="display-4 get-intouch text-center wow bounceInUp">Check out my work</h3>
       <div className="container-fluid port-items-cont">
        
         <PortfolioItem></PortfolioItem>
