@@ -32,35 +32,35 @@ class About extends Component {
               </div>
             </Col>
             <Col md="6" className="p-0 m-0">
-              <img src="https://grafreez.com/wp-content/temp_demos/suffi/img/intro-bg.jpg" className="img-fluid wow slideInRight" data-wow-delay="1s"/>
+              <img src="https://grafreez.com/wp-content/temp_demos/suffi/img/intro-bg.jpg" alt="coffee" className="img-fluid wow slideInRight" data-wow-delay="1s"/>
             </Col>
           </Row>
         </div>
           <h2 className=" text-center text-black services-head ">My Experience & Education</h2>
           <Row className="jobs-row-two text-center row-two-two">
             <Col>
-              <img className="job-icon wow rollIn jobs" data-wow-delay="1s" src="/riverside.jpg" />
+              <img className="job-icon wow rollIn jobs" alt="riverside" data-wow-delay="1s" src="/riverside.jpg" />
               <h3 className="job-place wow bounceIn" data-wow-delay="1.2s">Riverside Community Care</h3>
               <h5 className="job-name space wow bounceIn" data-wow-delay="1.3s">Residential Counslor</h5>
             </Col>
             <Col>
-              <img className="job-icon wow rollIn" data-wow-delay=".9s" src="/melmark.jpeg"/>
+              <img className="job-icon wow rollIn" alt="melmark" data-wow-delay=".9s" src="/melmark.jpeg"/>
               <h3 className="job-place wow bounceIn" data-wow-delay="1.4s">Melmark NewEngland</h3>
               <h5 className="job-name space wow bounceIn" data-wow-delay="1.5s">ABA Therapist</h5>
             </Col>
             <Col>
-              <img className="job-icon wow rollIn" data-wow-delay=".6s" src="/nashoba.jpg"/>
+              <img className="job-icon wow rollIn" alt="nashoba" data-wow-delay=".6s" src="/nashoba.jpg"/>
               <h3 className="job-place wow bounceIn" data-wow-delay="1.6s">Nashoba Learning Group</h3>
               <h5 className="job-name space wow bounceIn" data-wow-delay="1.7s">ABA Therapist</h5>
             </Col>
             <Col >
-              <img className="job-icon wow rollIn" data-wow-delay=".3s" src="/lowell.png"/>
+              <img className="job-icon wow rollIn" alt="lowell" data-wow-delay=".3s" src="/lowell.png"/>
               <h3 className="job-place wow bounceIn" data-wow-delay="1.8s">Univeristy Of MA Lowell</h3>
               <h5 className="job-name wow bounceIn" data-wow-delay="1.9s">B.A. Psychology</h5>
               <h5 className="job-name space wow bounceIn" data-wow-delay="1.9s">B.S. Information Technology</h5>
             </Col>
             <Col >
-              <img className="job-icon wow rollIn"  src="/openclass.jpeg"/>
+              <img className="job-icon wow rollIn" alt="openclassrooms"  src="/openclass.jpeg"/>
               <h3 className="job-place wow bounceIn" data-wow-delay="2s">Open Classrooms</h3>
               <h5 className="job-name space bottom-space wow bounceIn" data-wow-delay="2.1s">Full-Stack Web Development</h5>
             </Col>   
