@@ -4,12 +4,8 @@ import PortItemOne from './portItemOne';
 import PortItemTwo from './portItemTwo';
 import PortItemThree from './portItemThree';
 import '../portfolio-item.css';
-
-import { 
-    Col, Row, Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button } from 'reactstrap';
-
-    import WOW from "wowjs";
+import { Col, Row, Card, CardImg, CardBody, CardTitle } from 'reactstrap';
+import WOW from "wowjs";
   
 
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Jumbotron  } from 'reactstrap';
+import { Jumbotron  } from 'reactstrap';
 import PortfolioItem from './portfolioItems';
 import '../portfolio.css';
 import Footer from './footer';
