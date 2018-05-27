@@ -17,19 +17,14 @@ class Home extends Component {
   render() {
     return (
       <div className='container-fluid hero mask rgba-black-strong'> 
-    
-     
-     
         <div className="container wow bounceInDown text-center hero-container">
           <Row className="intro-row">
             <Col md="12">
               <h2 className="text-center hero-name "><span className="hero-span">Hi I'M</span> Brian Hobbs</h2>
               <p className="text-center text-rotate"><ReactRotatingText className="text-center " items={['Web Developer', 'Mobile', 'Full Stack', 'Responsive Design']} /> </p>
-
-              
               <Link to="/contact" className="btn btn-outline-primary start-button">Lets get started!</Link>
-            <Link to="/portfolio" className="btn btn-outline-warning start-button">My Work!</Link>
-        </Col>
+              <Link to="/portfolio" className="btn btn-outline-warning start-button">My Work!</Link>
+            </Col>
 
         </Row>
         </div>

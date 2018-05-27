@@ -125,6 +125,7 @@
 .social-contact-row {
     background-color: rgba(49,49,49,1);
 }
+
 @media screen and (max-width: 500px) {
     .get-intouch {
         font-size: 2.5rem;

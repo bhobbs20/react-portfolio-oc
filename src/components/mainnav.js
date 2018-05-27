@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import '../mainnav.css';
-
 import Home from './home';
 import About from './about';
 import Portfolio from './portfolio';
