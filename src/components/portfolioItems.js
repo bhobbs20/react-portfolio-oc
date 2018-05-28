@@ -1,105 +1,55 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
-import PortItemOne from './portItemOne';
-import PortItemTwo from './portItemTwo';
-import PortItemThree from './portItemThree';
+import { Col, Row } from 'reactstrap';
 import '../portfolio-item.css';
-import { Col, Row, Card, CardImg, CardBody, CardTitle } from 'reactstrap';
+import FaGithubSquare from 'react-icons/lib/fa/github-square';
+
 import WOW from "wowjs";
-  
 
 
 class PortfolioItem extends Component {
+  constructor(){
+    super();
+    this.state = {
+        isHovered : false
+    }
+  }
 
   componentDidMount() {
     const wow = new WOW.WOW();
     wow.init();
   }
- 
-  render() {
-    return (
-      <div className="portfolio-item">
 
+  render(){
+    const  { techUsed, name, link,  img,  description } = this.props.project;
     
-    <Row className="row-items">
-    <Col md="4">
-      <Card className=" wow slideInRight" data-wow-delay=".1s">
-        <CardImg top width="100%" src="./project-one.png" alt="Card image cap" />
-      <CardBody>
-      <Link to="/portfolio-item-one"> <CardTitle className="text-center">Challets and Caviar</CardTitle></Link>
+    return(
+      <div>
+
+
+      <div className="container">
+      <Row className="projects-row">
+              <Col md="6" className="text-center wow slideInUp" data-wow-delay=".2s">
+              
+                <img className="media" src={img} alt={name} />
+              
+              </Col>
+              <Col md="6" className="project-description wow slideInDown " data-wow-delay=".2s">
+              
+                <h3 className="text-center project-title">{name}</h3>
+                <p className=" description-lead">{description}</p>
+                  <p className=" tech description-lead"> <span className="tech-used">{techUsed}</span></p>
+                  <a href={link} ><FaGithubSquare className="description-lead"/></a>
+            </Col>
+
+            <hr className="port-projects"/>
+      </Row>
       
-      </CardBody>
-      </Card>
-      </Col> 
-
-      <Col md="4">
-      <Card className=" wow slideInLeft" data-wow-delay=".2s">
-        <CardImg top width="100%" src="./festival-home.png" alt="Card image cap" />
-        <CardBody>
-        <Link to="/portfolio-item-two"><CardTitle className="text-center"> Film Festival</CardTitle></Link>
-        
-         
-         
-        </CardBody>
-      </Card>
-      </Col> 
-
-      <Col md="4">
-      <Card className=" wow slideInRight" data-wow-delay=".1s">
-        <CardImg top width="100%" src="./react_port.png" alt="Card image cap" />
-        <CardBody>
-        <Link to="/portfolio-item-three"> <CardTitle className="text-center">  React Portfolio</CardTitle></Link>
-          
-          
-         
-         
-        </CardBody>
-      </Card>
-      </Col> 
-
-    </Row>
-
-    <Row>
-    <Col md-4>
-    <Card className="bottom-card wow slideInLeft" data-wow-delay=".2s">
-        <CardImg top width="100%" src="./coming-soon.jpg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle className="text-center">Coming Soon!</CardTitle>
-      
-          
-        </CardBody>
-      </Card>
-      </Col> 
-
-      <Col md-4>
-      <Card className="bottom-card wow slideInRight" data-wow-delay=".1s">
-      <CardImg top width="100%" src="./coming-soon.jpg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle className="text-center">Coming Soon!</CardTitle>
-         
-        </CardBody>
-      </Card>
-      </Col> 
-
-      <Col md-4>
-      <Card className="bottom-card wow slideInLeft" data-wow-delay=".2s">
-      <CardImg top width="100%" src="./coming-soon.jpg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle className="text-center">Coming Soon!</CardTitle>
-       
-        </CardBody>
-      </Card>
-      </Col> 
-
-    </Row>
-
-    
-    <Route path="./portfolio-item-one" component={PortItemOne}/>
-    <Route path="./portfolio-item-two" component={PortItemTwo}/>
-    <Route path="./portfolio-item-three" component={PortItemThree}/>
       </div>
-    );
-  }
-}
+    
+      </div>
+     
+      );
+    }
+  } 
 
-export default PortfolioItem;
+  export default PortfolioItem;
