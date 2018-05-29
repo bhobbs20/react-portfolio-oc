@@ -3,14 +3,11 @@
     top: 0;
     height: 85px;
     z-index: 100;
-    
     border-bottom: 1px solid #fff;
     background: rgba(49,49,49,1);
     color: #fff;
-
     -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
     box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
-    
 }
 
 .navbar-brand {
@@ -42,7 +39,6 @@
     margin-top: 10px;
 }
 
-
 .navbar-toggler {
     padding: .25rem .75rem;
     font-size: 1.25rem;
@@ -59,28 +55,21 @@
 
 @media screen and (max-width: 690px) {
     .navbar-nav {
-       
         margin: 20px;
         padding:10px;
-    }
-
-    
+    }  
 }
-
-
 
 .nav-link {
     display: block;
     padding-right: 30px;
     font-size: 18px;
-    color: #fff;
-    
+    color: #fff; 
 }
 
 .nav-link:hover {
     color: #77b785;
     border-bottom: 2px solid #77b785;
-   
 }
 
 .start-button {

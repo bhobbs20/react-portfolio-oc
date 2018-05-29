@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import '../about.css';
+import '../styles/components/about.css';
 import { Row, Col, Jumbotron  } from 'reactstrap';
 import Footer from './footer';
 import WOW from "wowjs";
 
 class About extends Component {
+  
   componentDidMount() {
     const wow = new WOW.WOW();
     wow.init();

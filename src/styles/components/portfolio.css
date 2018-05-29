@@ -2,10 +2,6 @@
     height: 100%;   
 }
 
- .portfolio-title {
-    padding-top: 100px;
-}
-
 .portfolio-jumbo {
     padding-top: 100px;
     height: 600px;
@@ -16,10 +12,9 @@
     background-size:  cover;
 }
 
-/* .project-container {
-    background-color: rgba(241,241,241,1);
-    padding-top: 40px;
-} */
+.portfolio-title {
+    padding-top: 100px;
+}
 
 .project-container {
     background-color: rgba(241,241,241,1);
@@ -35,17 +30,6 @@
     box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
     color: #5b9467;
 }
-
-
-.get-knoiw-me {
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    color: #77b785;
-    margin: 0;
-  }
-
 
   .job-icon-portfolio {
     font-size: 65px;

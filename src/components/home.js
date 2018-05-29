@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'reactstrap';
-import '../home.css';
+import '../styles/components/home.css';
 import WOW from "wowjs";
-
 
 var ReactRotatingText = require('react-rotating-text');
 
@@ -25,10 +24,8 @@ class Home extends Component {
               <Link to="/contact" className="btn btn-outline-primary start-button text-center">Lets get started</Link>
               <Link to="/portfolio" className="btn btn-outline-warning start-button">My Work</Link>
             </Col>
-
         </Row>
         </div>
-       
       </div>
     );
   }

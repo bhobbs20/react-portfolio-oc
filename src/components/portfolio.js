@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Jumbotron  } from 'reactstrap';
 import PortfolioItem from './portfolioItems';
 import Footer from './footer';
-import '../portfolio.css';
+import '../styles/components/portfolio.css';
 
 let projects = [
   {

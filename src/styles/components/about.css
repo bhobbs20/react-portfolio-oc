@@ -42,7 +42,6 @@
     font-style: italic;
 }
 
-
 .about-row {
     background-color: rgba(49,49,49,1);
 }
@@ -132,10 +131,6 @@
     list-style:none;
 }
 
-.fucku {
-    display: inline-flex;
-}
-
 .about-hover {
     margin-bottom:30px;
      padding: 20px;
@@ -192,14 +187,4 @@
     }
 }
 
-
-
-.get-knoiw-me {
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    color: #77b785;
-    margin: 0;
-  }
 
