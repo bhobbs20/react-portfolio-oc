@@ -30,11 +30,11 @@
     padding-left: 10px;
     font-weight: 700px;
     color: #fff;
+    margin-bottom: 0;
 }
 
 .about-intro-line {
-    color: #77b785;
-    padding-top: 5px;
+    color: #fff;
     padding-left:10px;
     font-size: 25px;
     font-weight: 700px;
@@ -42,10 +42,6 @@
     font-style: italic;
 }
 
-.get-knoiw-me {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 
 .about-row {
     background-color: rgba(49,49,49,1);
@@ -131,10 +127,6 @@
 
 }
 
-/* .about-lead-sub {
-        padding-bottom: 5px;
-    } */
-
 .content-half ul{
     padding:0;
     list-style:none;
@@ -202,5 +194,12 @@
 
 
 
-
+.get-knoiw-me {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #77b785;
+    margin: 0;
+  }
 

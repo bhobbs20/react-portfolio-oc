@@ -16,8 +16,8 @@ class Footer extends Component {
             <Col md="4">
               <h4 className="text-center footer-title-name">Brian Hobbs</h4>
               <hr className="footer-line"/>
-              <h5 className="text-center">Full-Stack </h5>
-              <p className="text-center">Georgetown, MA</p>
+              <h5 className="text-center footer-font-style">Full-Stack </h5>
+              <p className="text-center footer-font-style">Georgetown, MA</p>
             </Col>
             <Col md="4">
               <h4 className="text-center footer-title-name title">Menu</h4>

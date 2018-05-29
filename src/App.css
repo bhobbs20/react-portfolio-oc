@@ -22,3 +22,44 @@ body {
 
 }
 
+
+
+.navbar-brand,
+.hero-span,
+.hero-name,
+.text-rotate,
+.about-title,
+.get-knoiw-me,
+.about-lead-title,
+.services-head,
+.footer-title-name,
+.job-place,
+.start-button,
+.project-title {
+  font-family: 'Roboto', sans-serif;
+}
+
+.get-knoiw-me {
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #77b785;
+  margin: 0;
+}
+
+
+.about-intro-line,
+.about-lead-sub,
+.intro-para,
+.description-lead,
+.tech-used,
+.contact-h4,
+.social-intro-contact,
+.footer-links,
+.footer-font-style,
+.job-name,
+.nav-link {
+  font-family: 'Raleway', sans-serif;
+}
+

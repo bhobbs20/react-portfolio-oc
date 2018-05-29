@@ -28,17 +28,17 @@ class PortfolioItem extends Component {
 
       <div className="container">
       <Row className="projects-row">
-              <Col md="6" className="text-center wow slideInUp" data-wow-delay=".2s">
+              <Col md="6" className="text-center wow slideInLeft" data-wow-delay=".2s">
               
                 <img className="media" src={img} alt={name} />
               
               </Col>
-              <Col md="6" className="project-description wow slideInDown " data-wow-delay=".2s">
+              <Col md="6" className="project-description wow slideInUp " data-wow-delay=".2s">
               
                 <h3 className="text-center project-title">{name}</h3>
                 <p className=" description-lead">{description}</p>
                   <p className=" tech description-lead"> <span className="tech-used">{techUsed}</span></p>
-                  <a href={link} ><FaGithubSquare className="description-lead"/></a>
+                  <a href={link} className="job-icon-portfolio" ><FaGithubSquare className="description-lead "/></a>
             </Col>
 
             <hr className="port-projects"/>

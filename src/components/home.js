@@ -22,8 +22,8 @@ class Home extends Component {
             <Col md="12">
               <h2 className="text-center hero-name "><span className="hero-span">Hi I'M</span> Brian Hobbs</h2>
               <p className="text-center text-rotate"><ReactRotatingText className="text-center " items={['Web Developer', 'Mobile', 'Full Stack', 'Responsive Design']} /> </p>
-              <Link to="/contact" className="btn btn-outline-primary start-button">Lets get started!</Link>
-              <Link to="/portfolio" className="btn btn-outline-warning start-button">My Work!</Link>
+              <Link to="/contact" className="btn btn-outline-primary start-button text-center">Lets get started</Link>
+              <Link to="/portfolio" className="btn btn-outline-warning start-button">My Work</Link>
             </Col>
 
         </Row>

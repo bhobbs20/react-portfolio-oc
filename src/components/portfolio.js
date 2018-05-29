@@ -83,21 +83,14 @@ class Portfolio extends Component {
   //render the component
   render(){    
     return(
-      <div>
+      <div className="portfolio">
         <Jumbotron  className="portfolio-jumbo img-fluid">
           <div className="container about-intro-con wow slideInLeft">
             <h1 className="display-3 about-title wow slideInLeft">My Portfolio</h1>
             <p className="about-intro-line wow slideInLeft">Some of my latest work</p>
           </div> 
         </Jumbotron>
-        <h3 className="display-4 get-intouch text-center wow bounceInUp">Check out my work</h3>
-
-
-    
-
-
-
-       
+        <h3 className="display-4 get-knoiw-me text-center wow bounceInUp">Check out my work</h3>       
         <div className="container-fluid project-container">
       
             {

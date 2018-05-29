@@ -51,20 +51,18 @@
   .start-button {
     font-size: 14px;
     color: #fff;
-    margin: 20px 20px 0 0;
-    text-align: center;
-    width: 180px;
+   
+    
+    width: 200px;
     font-family: Raleway, Open Sans, Arial, sans-serif;
     letter-spacing: 3px;
     position: relative;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
+  
     vertical-align: middle;
-    max-width: 100%;
-    overflow: hidden;
+  margin: 25px 25px;
+    
     outline: none;
-    padding: 13px 20px;
+    padding: 15px 30px 15px 30px;
     display: inline-block;
     border-color: #77b785;
     border-width: 2px;

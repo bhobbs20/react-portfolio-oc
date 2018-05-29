@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/components/contact.css';
 import { Row, Col, Jumbotron } from 'reactstrap';
 import FaHome from 'react-icons/lib/fa/home';
+import FaEnvelope from 'react-icons/lib/fa/envelope';
 import FaMobile from 'react-icons/lib/fa/mobile';
 import FaGithubSquare from 'react-icons/lib/fa/github-square';
 import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
@@ -19,32 +20,32 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact">
-        <Jumbotron  className="conatct-jumbo img-fluid">
+        <Jumbotron className="contact-jumbo img-fluid">
           <div className="container about-intro-con wow slideInLeft">
             <h1 className="display-3 about-title wow slideInLeft">Contact Me </h1>
-            <p className="about-intro-line wow slideInLeft">Lets have a coffee and change the world</p>
+            <p className="about-intro-line wow slideInLeft">Lets have coffee</p>
           </div> 
         </Jumbotron>
-  
+        <h3 className="get-knoiw-me text-center text-bold wow bounceInUp">Get in touch with Me</h3> 
         <div className="contact-info-cont container-fluid">
-          <h3 className="display-4 get-intouch text-center wow bounceInUp" data-wow-delay=".3s" > Get in touch with Me</h3>
+          
           <Row className="contact-row">
             <Col className="text-center" md="4">
               <div className="contact-container wow bounceInRight" data-wow-delay=".1s">
-                <h4><FaHome className="contact-icons"/></h4>
-                <h4>Georegtown, MA </h4>
+                <h4><FaEnvelope className="contact-icons contact-env"/></h4>
+                <h4 className="contact-h4">brianhobbs216@gmail.com </h4>
               </div>
             </Col>
             <Col className="text-center" md="4">
               <div className="contact-container wow bounceInUp" data-wow-delay=".3s">
                 <h4><FaMobile className="contact-icons"/></h4>
-                <h4>978-500-4457</h4>
+                <h4 className="contact-h4">978-500-4457</h4>
               </div>
             </Col>
             <Col className="text-center" md="4">
               <div className="contact-container wow bounceInLeft" data-wow-delay=".4s">
                 <h4><FaHome className="contact-icons"/></h4>
-                <h4>Georegtown, MA </h4>
+                <h4 className="contact-h4">Georegtown, MA </h4>
               </div>
             </Col>
           </Row> 
