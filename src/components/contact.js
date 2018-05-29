@@ -26,7 +26,7 @@ class Contact extends Component {
             <p className="about-intro-line wow slideInLeft">Lets have coffee</p>
           </div> 
         </Jumbotron>
-        <h3 className="get-knoiw-me text-center text-bold wow bounceInUp">Get in touch with Me</h3> 
+        <h3 className="get-knoiw-me text-center wow bounceInUp">Get in touch with Me</h3> 
         <div className="contact-info-cont container-fluid">
           
           <Row className="contact-row">

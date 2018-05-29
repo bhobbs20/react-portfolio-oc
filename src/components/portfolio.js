@@ -28,7 +28,6 @@ let projects = [
     img : './project-one.png',
     description: 'This is a quick little description of this project. But it and pay me lots of money'
   },
-
   {
     name: 'React Portfolio',
     techUsed : [
@@ -71,7 +70,6 @@ let projects = [
   }
 ];
 
-
 class Portfolio extends Component {
   constructor(){
     super();
@@ -80,7 +78,6 @@ class Portfolio extends Component {
     }
   }
 
-  //render the component
   render(){    
     return(
       <div className="portfolio">
@@ -98,14 +95,12 @@ class Portfolio extends Component {
                 return <PortfolioItem project={project} key={index} />
               })
             }
-           
-      
+
         </div>
         <Footer/>
       </div>
     );
   }
 }
-
 
 export default Portfolio;

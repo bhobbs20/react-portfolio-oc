@@ -30,17 +30,17 @@
 }
 
 .footer-social-icon {
-  color: #77b785;
-  font-size: 40px;
-  margin: 10px;
+    color: #77b785;
+    font-size: 40px;
+    margin: 10px;
 }
 
 .footer-social-icon:hover {
-  color: #5b9467;
+    color: #5b9467;
 }
 
 @media screen and (max-width: 690px) {
- .title {
-   padding-top: 40px;
-  }
+    .title {
+      padding-top: 40px;
+   }
 }

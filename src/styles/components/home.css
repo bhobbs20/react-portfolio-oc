@@ -1,19 +1,19 @@
 .hero {
-    background-image: url('/home-image_Fotor.jpg');
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-attachment: fixed;
-    background-size:  cover;
-    height: 100%;
-     color: #fff;
+  background-image: url('/home-image_Fotor.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  height: 100%;
+  color: #fff;
 }
 
 .hero-name {
-    padding-top: 180px;
-    font-size: 64px;
-    letter-spacing: 2px;
-    font-family: Raleway, Open Sans, Arial, sans-serif;
-    color: #fff;
+  padding-top: 180px;
+  font-size: 64px;
+  letter-spacing: 2px;
+  font-family: Raleway, Open Sans, Arial, sans-serif;
+  color: #fff;
 }
 
 .text-rotate {
@@ -24,7 +24,7 @@
 }
 
 .p-text {
-    height:28px;  
+    height: 28px;  
 }
 
 .react-rotating-text-cursor {
@@ -51,16 +51,12 @@
   .start-button {
     font-size: 14px;
     color: #fff;
-   
-    
     width: 200px;
     font-family: Raleway, Open Sans, Arial, sans-serif;
     letter-spacing: 3px;
     position: relative;
-  
     vertical-align: middle;
-  margin: 25px 25px;
-    
+    margin: 25px 25px;
     outline: none;
     padding: 15px 30px 15px 30px;
     display: inline-block;
@@ -78,7 +74,6 @@
   background-color: rgba(43, 44, 45, 0.5);
   padding: 20px 5px 20px 50px;
   border-left: 4px solid #77b785;
-  
 }
 
 .hero-container {
