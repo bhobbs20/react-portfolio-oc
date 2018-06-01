@@ -5,6 +5,7 @@ import Home from './home';
 import About from './about';
 import Portfolio from './portfolio';
 import Contact from './contact';
+import FaBars from 'react-icons/lib/fa/bars';
 
 import {
   Collapse,
@@ -22,7 +23,8 @@ import {
   
       this.toggle = this.toggle.bind(this);
       this.state = {
-        isOpen: false
+        isOpen: false,
+        className: 'Fabars'
       };
     }
     toggle() {
@@ -36,7 +38,7 @@ import {
         <div>
           <Navbar expand="md" className="fixed-top">
             <NavbarBrand href="/">Brian Hobbs</NavbarBrand>
-              <NavbarToggler onClick={this.toggle} />
+              <NavbarToggler onClick={this.toggle} > <FaBars/> </NavbarToggler>
               <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                   <NavItem>

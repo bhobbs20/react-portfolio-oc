@@ -42,8 +42,9 @@
 .navbar-toggler {
     padding: .25rem .75rem;
     font-size: 1.25rem;
+    color: #4d925c;
     line-height: 1;
-    background-color: #4d925c;
+    background-color: #fff;
     border: 2px solid #77b785;
     border-radius: .25rem;
 }
@@ -51,6 +52,7 @@
 .navbar-toggler:hover {
     background-color: #77b785;
     border: 2px solid #4d925c;
+    color: #fff;
 }
 
 @media screen and (max-width: 690px) {
@@ -74,4 +76,10 @@
 
 .start-button {
     font-weight: 500;
+}
+
+.navbar-collapse {
+    background-color: rgba(49,49,49,1);
+    border-radius: 5px;
+    margin-top:3px;
 }
