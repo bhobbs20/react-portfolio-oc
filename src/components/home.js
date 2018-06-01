@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'reactstrap';
 import '../styles/components/home.css';
+import Social from '../components/social';
 import WOW from "wowjs";
 
 var ReactRotatingText = require('react-rotating-text');
@@ -23,6 +24,7 @@ class Home extends Component {
               <p className="text-center text-rotate"><ReactRotatingText className="text-center " items={['Web Developer', 'Mobile', 'Full Stack', 'Responsive Design']} /> </p>
               <Link to="/contact" className="btn btn-outline-primary start-button text-center">Lets get started</Link>
               <Link to="/portfolio" className="btn btn-outline-warning start-button">My Work</Link>
+              <Social/>
             </Col>
         </Row>
         </div>
