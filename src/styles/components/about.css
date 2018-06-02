@@ -169,6 +169,15 @@
     box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
 }
 
+.to-contact-link {
+    color: #77b785;
+}
+
+.to-contact-link:hover {
+    color: #5b9467;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 550px) {
     .about-intro-con {
         float: none;

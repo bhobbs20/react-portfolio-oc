@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/components/about.css';
 import { Row, Col, Jumbotron  } from 'reactstrap';
 import Footer from './footer';
+import Social from './social';
 import WOW from "wowjs";
 
 class About extends Component {
@@ -29,8 +31,9 @@ class About extends Component {
                 <h2 className="about-lead-title text-white wow slideInLeft">My Story</h2>
                 <h6 className="about-lead-sub text-white wow slideInLeft" >A little introduction</h6>
                 <div className="about-hr-line  wow slideInLeft" ></div>
-                <p className="text-white intro-para wow slideInRight " > Hi, Let me introduce myself. I'm Brian Hobbs and I'm a former ABA Therapist turned Full-Stack Web Developer. </p>
-                <p className="text-white intro-para wow slideInLeft" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className="text-white intro-para wow slideInRight " > Hello! Let me introduce myself. My name is Brian Hobbs and I am from the Boston, MA area. I am a former ABA Therapist who took his love for technology and turned it into a career. When I am not coding you can find me T-Rex hunting with my son or working in my garden. </p>
+                <p className="text-white intro-para wow slideInLeft" > I am Full-Stack web developer specilaing in Ruby on Rails and Raect.js. I believe in transparent developement and strive to deliver regular updates to the client. From development, to production, and to site updates, the client will always be updated.Take a look look around. If you like what you see,<Link className="to-contact-link" to="/contact"> contact me </Link>and lets build something beautiful.</p>
+                <Social/>
               </div>
             </Col>
             <Col md="6" className="p-0 m-0">
