@@ -70,6 +70,12 @@
     border-color: #5b9467;
   }
 
+  /* .start-button:active {
+    background-color: #5b9467;
+    border-color: #5b9467;
+    color: #fff;
+  } */
+
 .hero-span {
   background-color: rgba(43, 44, 45, 0.5);
   padding: 20px 5px 20px 50px;

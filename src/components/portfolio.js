@@ -48,7 +48,7 @@ let projects = [
     ],
     link : 'https://github.com/',
     img : './coming-soon.jpg',
-    description: 'This is a quick little description of this project. But it and pay me lots of money'
+    description: 'This is a quick little description of this project.'
   },
   {
     name: 'Coming Soon',
@@ -57,7 +57,7 @@ let projects = [
     ],
     link : 'https://github.com/',
     img : './coming-soon.jpg',
-    description: 'This is a quick little description of this project. But it and pay me lots of money'
+    description: 'This is a quick little description of this project.'
   },
   {
     name: 'Coming Soon',
@@ -66,7 +66,7 @@ let projects = [
     ],
     link : 'https://github.com/',
     img : './coming-soon.jpg',
-    description: 'This is a quick little description of this project. But it and pay me lots of money'
+    description: 'This is a quick little description of this project.'
   }
 ];
 
