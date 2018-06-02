@@ -14,7 +14,7 @@ let projects = [
     ],
     link : 'https://github.com/bhobbs20/Film_Festival_MockUp',
     img : './festival-home.png',
-    description: 'This is a quick little description of this project. But it and pay me lots of money'
+    description: 'For this project, I was asked to build a site for an Outdoor Film Festival. The site has a pre-registration form, news and announcements section, and a display of all the movies being shown.'
   },
   {
     name: 'Realty Site',
@@ -26,7 +26,7 @@ let projects = [
     ],
     link : 'https://github.com/',
     img : './project-one.png',
-    description: 'This is a quick little description of this project. But it and pay me lots of money'
+    description: 'For this project, I was asked to build a Wordpress site for a Luxury Chalets realty company. The site lists and displays sale and rental properties and has a functional contact form.'
   },
   {
     name: 'React Portfolio',
@@ -38,8 +38,8 @@ let projects = [
       'Google Maps '
     ],
     link : 'https://github.com/',
-    img : './react_port.png',
-    description: 'This is a quick little description of this project. But it and pay me lots of money'
+    img : './port-screen.png',
+    description: 'For this project, I built my portfolio using React.js and React-Router. The site has a about, portfolio, and contact page.'
   },
   {
     name: 'Coming Soon',
